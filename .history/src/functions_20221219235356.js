@@ -42,7 +42,6 @@ const renderNav = () => {
 }
 // NAVBAR FUNCTION END
 
-
 // CONTENT FUNCTION START
 const renderContent = () => {
      app.innerHTML += `

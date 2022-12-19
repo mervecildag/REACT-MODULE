@@ -42,7 +42,6 @@ const renderNav = () => {
 }
 // NAVBAR FUNCTION END
 
-
 // CONTENT FUNCTION START
 const renderContent = () => {
      app.innerHTML += `
@@ -54,10 +53,9 @@ const renderContent = () => {
      <div class="p-3 ms-3 me-4 mb-2 bg-info text-dark">.bg-info</div>
      <div class="p-3 ms-3 me-4 mb-2 bg-light text-dark">.bg-light</div>`
  }
-// CONTENT FUNCTION END
+ // CONTENT FUNCTION END
 
-
-//FOOTER FUNCTION START
+//
  const renderFooter = () => {
     app.innerHTML += ` 
     <footer class="d-flex flex-wrap justify-content-between align-items-center m-2 me-3 p-3 border-top bg-dark">
@@ -76,7 +74,6 @@ const renderContent = () => {
     </ul>
   </footer>`
 }
-// FOOTER FUNCTION END
 
 export {
     renderNav,
