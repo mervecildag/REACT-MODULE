@@ -10,17 +10,17 @@ function Children({ user }) {
             <img src={child.avatar} alt="" data-testid="child-avatar"></img>
             <p>First name : {child.firstName}</p>
             <p>Gender : {child.gender}</p>
-            <p>Birthday : {child.birthday}</p>
+            <p>Birthday : {child.birthday}</p> 
           </div>
         )
       })
   }
   return (
     <div>
-      {Title({title:"children",number: user.children.length})}
+      {Title({title:"CHILDREN",number: user.children.length})}  
 
       <div className="d-flex justify-content-around">
-          {renderChildList()}
+          {renderChildList()} 
       </div>
     </div>
   );

@@ -1,18 +1,17 @@
 import React from "react";
 import Title from "../components/Title";
-import {person} from "../data/person"
 
 function Person({ user }) {
   return (
     <div>
-      {Title({title:"person"})}
+      {Title({title:"PERSON"})}
       <div>
-        <img src={person.avatar} alt=""></img>
-        <p>First name: {person.first_name}</p>
-        <p>Last name: {person.last_name}</p>
-        <p>Address: {person.address}</p>
-        <p>Gender: {person.gender}</p>
-        <p>Email: {person.email}</p>
+        <img src={user.avatar} alt=""></img>
+        <p>First name: {user.first_name}</p>
+        <p>Last name: {user.last_name}</p>
+        <p>Address: {user.address}</p>
+        <p>Gender: {user.gender}</p>
+        <p>Email: {user.email}</p>
 
       </div>
     </div>

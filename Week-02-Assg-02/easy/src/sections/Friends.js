@@ -20,10 +20,10 @@ function Friends({ user }) {
 
   return (
     <div>
-      {Title({title:"friends",number: user.friends.length})}
+      {Title({title:"FRIENDS",number: user.friends.length})} 
 
       <div className="d-flex justify-content-around">
-          {renderFriendsList()}
+          {renderFriendsList()} 
       </div>
     </div>
   );
